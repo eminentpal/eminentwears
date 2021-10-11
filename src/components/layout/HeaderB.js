@@ -35,7 +35,7 @@ const location = useLocation ()
             
             <div className="toolBar" >
         
-               <Link to='/'> <img className="logo"  className="img2"  src="/images/logo4.png" width="250px" height='30px'  alt='logo' /> </Link>
+                    <Link to='/'> <img className="logo"  className="img2"  src="/images/logo4.png" width="250px" height='30px'  alt='logo' /> </Link>
       
                     
                         <input className="inputSearch"  type='text' placeholder="Enter Product Name " />
@@ -93,6 +93,8 @@ const location = useLocation ()
         </div>
 
             )}
+
+            
         </>   
     )
 }
