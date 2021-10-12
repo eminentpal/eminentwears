@@ -82,16 +82,7 @@ if(error) {
 
        <Fragment>
        <MetaData title="Buy Best Product Online" />
-       <div class="row row-2">
-           <h2  style={{fontWeight:'bold'}} >All Products</h2>
-           <select>
-            <option> Default Sorting</option>
-            <option> Sort Price</option>
-            <option> Sort popularity</option>
-            <option> Sort by rating</option>
-            <option> Sort by sale</option>
-           </select>
-       </div>
+    <h1 id="products_heading">Latest Products</h1>
  
     <section id="products" className="container mt-5">
 
