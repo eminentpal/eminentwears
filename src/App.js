@@ -99,8 +99,8 @@ return (
   <div>
 
 
- <HeaderB />
- <Route path="/" exact component={Homepage} />
+ <Header />
+ {/* <Route path="/" exact component={Homepage} /> */}
   <div className="container container-fluid" >
   <Route path="/products" exact component={Home} />
   

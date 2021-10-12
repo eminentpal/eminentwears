@@ -75,7 +75,7 @@ const CartB = ({history}) => {
                 </div>
             </td>
             <td>  
-            <div className="stockCounter d-block">
+            <div className="stockCounter ">
             <span onClick={() => decreaseQty( item.product, item.quantity)} className="btn btn-danger minus">-</span>
                             <input type="number" className="form-control count d-inline" value={item.quantity} readOnly />
 
